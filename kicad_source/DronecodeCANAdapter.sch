@@ -478,7 +478,7 @@ U 1 1 5FF2C218
 P 2050 2450
 F 0 "CN1" H 1967 2955 50  0000 C CNN
 F 1 "CONN_01X05" H 1967 2864 50  0000 C CNN
-F 2 "pin_headers:Pin_Header_Straight_1x05" H 1967 2773 50  0000 C CNN
+F 2 "pin_headers:Pin_Header_Straight_1x05" H 1967 2773 50  0001 C CNN
 F 3 "" H 2050 2450 50  0000 C CNN
 	1    2050 2450
 	-1   0    0    -1  
