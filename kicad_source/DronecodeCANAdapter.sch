@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "DronecodeCANAdapter"
-Date "2021-01-25"
+Date "2021-01-26"
 Rev "0.2"
 Comp "generationmake"
 Comment1 ""
@@ -448,12 +448,8 @@ Wire Wire Line
 	5750 4000 6100 4000
 Wire Wire Line
 	6300 3650 6600 3650
-Connection ~ 6600 3650
-Wire Wire Line
-	6600 3650 6600 4000
 Wire Wire Line
 	6300 4000 6600 4000
-Connection ~ 6600 4000
 Wire Wire Line
 	6600 4000 6600 4100
 Text Label 5100 3650 0    50   ~ 0
@@ -568,4 +564,20 @@ $EndComp
 NoConn ~ 5750 5700
 Text Notes 10000 3550 0    50   ~ 0
  BAT54W-G3-08
+$Comp
+L power-supply:+3V3 #PWR?
+U 1 1 600F7B1B
+P 6600 3150
+AR Path="/5FD58A5B/600F7B1B" Ref="#PWR?"  Part="1" 
+AR Path="/600F7B1B" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 6600 3000 50  0001 C CNN
+F 1 "+3V3" H 6615 3323 50  0000 C CNN
+F 2 "" H 6600 3150 50  0000 C CNN
+F 3 "" H 6600 3150 50  0000 C CNN
+	1    6600 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3300 6600 3150
+Connection ~ 6600 3300
 $EndSCHEMATC
