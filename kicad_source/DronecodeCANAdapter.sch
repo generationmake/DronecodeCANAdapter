@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "DronecodeCANAdapter"
-Date "2021-01-02"
-Rev "0.1"
+Date "2021-01-25"
+Rev "0.2"
 Comp "generationmake"
 Comment1 ""
 Comment2 ""
@@ -34,7 +34,7 @@ AR Path="/5FD58A5B/5FD751FF" Ref="U?"  Part="1"
 AR Path="/5FD751FF" Ref="U1"  Part="1" 
 F 0 "U1" H 4775 2887 60  0000 C CNN
 F 1 "TCAN332GDR" H 4775 2781 60  0000 C CNN
-F 2 "SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm" H 5100 1950 60  0001 C CNN
+F 2 "SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5100 1950 60  0001 C CNN
 F 3 "" H 4250 2150 60  0000 C CNN
 	1    4250 2000
 	1    0    0    -1  
@@ -566,4 +566,6 @@ F 3 "" H 6050 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 5750 5700
+Text Notes 10000 3550 0    50   ~ 0
+ BAT54W-G3-08
 $EndSCHEMATC

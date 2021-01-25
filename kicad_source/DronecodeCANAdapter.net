@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/bernhard/projects/DronecodeCANAdapter/kicad_source/DronecodeCANAdapter.sch)
-    (date "Sa 02 Jan 2021 11:03:18 CET")
+    (date "Mo 25 Jan 2021 23:43:13 CET")
     (tool "Eeschema 5.1.9-73d0e3b20d~88~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -23,7 +23,7 @@
       (tstamp 5FD751AC))
     (comp (ref U1)
       (value TCAN332GDR)
-      (footprint SOIC:SOIJ-8_5.3x5.3mm_Pitch1.27mm)
+      (footprint SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm)
       (libsource (lib CAN-transceiver) (part SN65HVD232) (description "3.3-V CANBus Transceivers"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5FD751FF))
